@@ -29,23 +29,30 @@ a {
 .section1 {
     background-color: #1f2937;
     display: flex;
-    color: white;
-    margin: 0;
-    flex-direction: column;
-    align-items: center;
+    padding: 50px;
 
+}
+.contentblock {
+    background-color: #1f2937;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
 }
 h1.title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
-    white-space: nowrap;
-    align-self: flex-start
+    font: "Hero";
+    width: 400px;
+    align-self: flex-start;
+    margin: 0;
 }
 .subtext {
-    width: ;
+    width: 300px;
     color: #E5e7eb;
     font-size: 18px;
+    margin: 0;
 
 }
 button {
@@ -54,18 +61,91 @@ button {
     background-color: #3882f6;
     color:white;
 }
-.placeholder {
-    margin-right: auto;
+.placeholderimg {
+    display: flex;
+    margin-left: auto;
     background-color: grey;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 150px;
     width: 300px;
+    border: solid;
+    align-self: center;
     
 }
 
-/* .section2.box {
-    width: 30px;
-    height: 30px;
-    border-color: black;
-} */
+.section2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.placeholder-box {
+    width: 100px;
+    height: 100px;
+    border: solid #3882f6;
+}
+.boxes p {
+    display: flex;
+    width: 100px;
+}
+.content-placeholder-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: #1f2937;
+}
+.quote h3 {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    min-width: 400px;
+    min-height: 200px;
+    padding: 10px;
+}
+strong.reference {
+    display: flex;
+    justify-content: flex-end;
+    font-size: small;
+    padding: 10px;
+}
+.section4 {
+    padding: 50px;
+
+}
+.box-end {
+    display: flex;
+    background-color: #3882f6;
+    padding: 20px;
+}
+.content-bottom {
+    display: flex;
+    flex-direction: column;
+
+}
+.signup2 {
+    display: flex;
+    align-items: center;
+    border: 3px solid #f9faf8;
+    margin: 0;
+}
+.calltoact {
+    margin: 0;
+    color: #f9faf8;
+}
+p.subtext-end {
+    margin: 0;
+    color: #E5e7eb;
+}
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: small;
+}
