@@ -9,6 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
 }
 .logo {
     font-size: 24px;
@@ -126,17 +127,19 @@ strong.reference {
 }
 .box-end {
     display: flex;
+    justify-content: space-evenly;
     background-color: #3882f6;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
 }
 .content-bottom {
     display: flex;
     flex-direction: column;
-
+    margin-right: auto;
 }
 .signup2 {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     border: 3px solid #f9faf8;
     border-radius: 15px;
